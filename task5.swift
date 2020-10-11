@@ -34,10 +34,10 @@ if CommandLine.arguments.count == 1 {
     for i in 2...quantityOfNumbers1 + 1 {
         set1.insert(Int(CommandLine.arguments[i])!) 
     }
-	let quantityOfNumbers2 = Int(CommandLine.arguments[1])!
+	let quantityOfNumbers2 = Int(CommandLine.arguments[quantityOfNumbers1 + 2])!
 	var set2: Set<Int> = []
     
-    for i in 2...quantityOfNumbers2 + 1 {
+    for i in quantityOfNumbers1 + 3...quantityOfNumbers1 + 3 + quantityOfNumbers2 - 1 {
         set2.insert(Int(CommandLine.arguments[i])!) 
     }
 
