@@ -16,7 +16,7 @@ if CommandLine.arguments.count == 1 {
 	let distanceToLongSide1 = Int(readLine(strippingNewline: true)!)!
 	let distanceToShortSide1 = Int(readLine(strippingNewline: true)!)!  
 
-    countingDistance(lengthOfPool: lengthOfPool, widthOfPool: widthOfPool, 
+	countingDistance(lengthOfPool: lengthOfPool, widthOfPool: widthOfPool, 
 		distanceToLongSide1: distanceToLongSide1, distanceToShortSide1: distanceToShortSide1)
 	
 } else {
@@ -26,6 +26,6 @@ if CommandLine.arguments.count == 1 {
 	let distanceToLongSide1 = Int(CommandLine.arguments[3])!
 	let distanceToShortSide1 = Int(CommandLine.arguments[4])! 
     
-    countingDistance(lengthOfPool: lengthOfPool, widthOfPool: widthOfPool, 
+    	countingDistance(lengthOfPool: lengthOfPool, widthOfPool: widthOfPool, 
 		distanceToLongSide1: distanceToLongSide1, distanceToShortSide1: distanceToShortSide1)
 }
