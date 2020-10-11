@@ -2,14 +2,14 @@ import Foundation
 
 func countingMark(speed: Int, time: Int) {
 	
-    let distance = abs(speed) * time
+	let distance = abs(speed) * time
     let lengthOfRoad = 109
     let quantityOfLaps = distance / lengthOfRoad
     var markOnRoad = 0
     	
     if (speed > 0) {
 
-        markOnRoad = distance - quantityOfLaps * lengthOfRoad
+    	markOnRoad = distance - quantityOfLaps * lengthOfRoad
 
     } else if (speed < 0) {
                 
